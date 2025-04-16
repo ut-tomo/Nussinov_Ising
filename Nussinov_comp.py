@@ -76,7 +76,7 @@ model = obj + constraint1*weight1 + constraint2*weight2 + constraint3*weight3
 
 def PredictedStructure():
     client = amp.FixstarsClient()
-    client.parameters.timeout = timedelta(milliseconds=10000)
+    client.parameters.timeout = timedelta(milliseconds=??)
     client.token = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX" # Replace with your token
     result = amp.solve(model, client=client)
 
@@ -165,7 +165,7 @@ def nussinov():
 
 
 def main():
-    iter = 5 
+    iter = ?
     match = 0
     mismatch_low = 0
     mismatch_high = 0
