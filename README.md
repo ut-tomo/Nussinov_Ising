@@ -34,7 +34,7 @@ The valid base pairs include:
 
 ## ⚙️ Requirements
 
-- Python 3.x
+- Python 3.9~
 - `numpy`
 - `amplify` (Fixstars Amplify SDK)
 
